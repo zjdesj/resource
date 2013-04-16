@@ -1,0 +1,28 @@
+[user]	
+	name = wyw
+	email = yaowuwang@sohu-inc.com
+[color]	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+	ui = true
+
+[core]   editor = gvim.exe
+	autocrlf = false
+	quotepath = false
+
+
+[alias]
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	st = status
+	ci = commit
+	co = checkout
+[diff]
+    tool = gvimdiff
+[difftool]
+    prompt = false
+[gui]
+	encoding = utf-8
+[format]	
+	pretty = oneline
